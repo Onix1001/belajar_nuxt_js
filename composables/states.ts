@@ -1,0 +1,1 @@
+export const useData = () => useState("data", (): { barang: string, satuan: string, hargaBeli: number, hargaJual: number }[] => [])
